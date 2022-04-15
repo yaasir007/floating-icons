@@ -1,0 +1,38 @@
+body{
+  background: lightcoral;
+}
+.icons-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 10rem;
+}
+
+.icon {
+  display: inline-block;
+  font-size: 7rem;
+  animation: float 3s ease-in-out infinite;
+  margin: 50px;
+  color: lightgrey;
+}
+
+.icon-2 > i{
+  animation-delay: 1s;
+}
+
+.icon-3 > i{
+  animation-delay: 2s;
+}
+
+@keyframes float {
+  0%{
+    transform: translateY(0);
+  }
+
+  50%{
+    transform: translateY(-20px);
+  }
+
+  100%{
+    transform: translateY(0);
+  }
+}
