@@ -1,5 +1,5 @@
 body{
-  background: lightcoral;
+  background: rgb(158, 94, 94);
 }
 .icons-container {
   display: flex;
@@ -12,7 +12,7 @@ body{
   font-size: 7rem;
   animation: float 3s ease-in-out infinite;
   margin: 50px;
-  color: lightgrey;
+  color: whitesmoke;
 }
 
 .icon-2 > i{
