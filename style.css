@@ -23,6 +23,10 @@ body{
   animation-delay: 2s;
 }
 
+.icon-4 > i {
+  animation-delay: 3s;
+}
+
 @keyframes float {
   0%{
     transform: translateY(0);
